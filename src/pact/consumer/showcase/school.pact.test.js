@@ -64,6 +64,6 @@ describe('GET School', () => {
     );
     expect(response.status).toEqual(200);
   }
-  ,20000
+  ,50000
   );
 });
